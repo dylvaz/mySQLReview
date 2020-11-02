@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS foodDB;
+
+CREATE DATABASE foodDB;
+
+USE foodDB;
+
+CREATE TABLE Food (
+  id int AUTO_INCREMENT NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  price int NOT NULL,
+  rating int NOT NULL,
+  PRIMARY KEY (id)
+);
